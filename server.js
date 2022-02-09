@@ -30,3 +30,4 @@ s.get('*', (req, res) => {
     res.sendFile(p('src/html/404.html'));
 });
 s.listen(port);
+console.log(`http://localhost:${port}`);

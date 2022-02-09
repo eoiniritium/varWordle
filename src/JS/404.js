@@ -1,0 +1,1 @@
+document.getElementsByClassName('a-wrapper')[0].addEventListener('click', (e) => {location.href='/'});

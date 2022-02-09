@@ -1,0 +1,18 @@
+:root {
+    --purple: linear-gradient(45deg, rgba(103,0,144,1) 0%, rgba(194,0,255,1) 35%, rgba(255,0,144,1) 100%);
+}
+
+a {
+    background-image: var(--purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-decoration: none;
+}
+
+.a-wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
