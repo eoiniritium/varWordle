@@ -26,6 +26,10 @@ s.get('/', (req, res) => {
     res.sendFile(p('src/html/landing.html'));
 });
 
+s.get('/newgame', (req, res) => {
+    res.sendFile(p('src/html/newgame.html'));
+});
+
 s.get('*', (req, res) => {
     res.sendFile(p('src/html/404.html'));
 });

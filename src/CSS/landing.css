@@ -7,7 +7,7 @@
 :root {
     --purple: linear-gradient(45deg, rgba(103,0,144,1) 0%, rgba(194,0,255,1) 35%, rgba(255,0,144,1) 100%);}
 
-.header {
+.header, .div {
     background-image: var(--purple);
     color: #fff;
     margin: 20px 100px 0px 100px;
