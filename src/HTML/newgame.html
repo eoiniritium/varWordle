@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>varWordle - New game</title>
+
+    <link rel="icon" href="/img/varWordleLogo.png">
+    <link rel="stylesheet" href="css/newgame.css">
+    <link rel="stylesheet" href="css/a-tag.css">
+    <link rel="stylesheet" href="css/div.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script defer src="/js/newgame.js"></script>
 </head>
 <body>
-    
+    <div class="div" id="top-bar">
+        <div class="a-wrapper"><a href="/">Home</a></div>
+        <h1 id='newgame-label' class="top-bar-inner-items">New Game</h1>
+        <div id="code-background"  class="top-bar-inner-items">
+            <h1 id="code">Code: _ _ _ _ _ _</h1>
+        </div>
+    </div>
+    <div class="div">
+        <p>Select game file</p>
+        <input type="file" id="file-box" accept=".varwordle">
+        <div class="a-wrapper" id="a-wrapper"><a id="a-button">Start game</a></div>
+    </div>
 </body>
 </html>

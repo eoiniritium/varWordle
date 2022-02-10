@@ -15,4 +15,5 @@ a {
     background-color: #fff;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
+    width: max-content;
 }
